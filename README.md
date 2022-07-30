@@ -4,7 +4,7 @@
 
 - Kotlin 1.6.21
 - SpringBoot 2.7.2
-- ES
+- Elastic Search
 - Kafka
 - Redis
 
