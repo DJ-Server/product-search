@@ -9,3 +9,5 @@ class ProductSearchApplication
 fun main(args: Array<String>) {
     runApplication<ProductSearchApplication>(*args)
 }
+
+
