@@ -1,5 +1,7 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
+val springCloudVersion = "3.1.3"
+
 plugins {
     id("org.springframework.boot") version "2.7.2"
     id("io.spring.dependency-management") version "1.0.12.RELEASE"
@@ -28,6 +30,9 @@ dependencies {
     implementation("com.github.gavlyukovskiy:p6spy-spring-boot-starter:1.8.0")
 //    runtimeOnly("mysql:mysql-connector-java")
     runtimeOnly("com.h2database:h2")
+
+    implementation("org.springframework.cloud:spring-cloud-starter-openfeign:$springCloudVersion")
+    implementation("io.github.openfeign:feign-okhttp:10.10.1")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
 //    testImplementation("org.springframework.kafka:spring-kafka-test")
 }

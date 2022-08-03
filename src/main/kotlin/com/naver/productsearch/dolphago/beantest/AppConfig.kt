@@ -1,7 +1,5 @@
-package com.naver.productsearch.dolphago.configuration
+package com.naver.productsearch.dolphago.beantest
 
-import com.naver.productsearch.dolphago.Animal
-import com.naver.productsearch.dolphago.Cat
 import org.springframework.beans.factory.annotation.Qualifier
 import org.springframework.context.annotation.Bean
 import org.springframework.context.annotation.Configuration

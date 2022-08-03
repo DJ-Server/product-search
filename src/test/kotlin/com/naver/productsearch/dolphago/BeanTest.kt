@@ -1,6 +1,7 @@
 package com.naver.productsearch.dolphago
 
-import com.naver.productsearch.dolphago.configuration.AppConfig
+import com.naver.productsearch.dolphago.beantest.AppConfig
+import com.naver.productsearch.dolphago.beantest.Owner
 import org.junit.jupiter.api.Test
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
